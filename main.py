@@ -1,10 +1,29 @@
+from functools import wraps
+from time import time
 
-print("Hello git")
+def decorator(func) :
 
-print("Helo world")
+    @wraps(func)
+    
+    def wrapper(*args , **kwargs) :
 
+        t1 = time()
+
+        result  = func(*args , **kwargs)
+
+        t2 = time()
+
+        print(f"This function took {t2 - t1} seconds to load")
+
+        return result 
+
+    
+    return wrapper
+
+@decorator
 def add(a, b) :
 
     print(a + b)
 
-add(2 ,3)
+
+add(4,5)
