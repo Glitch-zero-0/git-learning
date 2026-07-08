@@ -1,3 +1,2 @@
 
-print("Hello")
-print("Second line")
+print("Hello git")
