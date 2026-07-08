@@ -15,7 +15,7 @@ def decorator(func) :
 
         print(f"This function took {t2 - t1} seconds to load")
 
-        return result 
+        return result
 
     
     return wrapper
