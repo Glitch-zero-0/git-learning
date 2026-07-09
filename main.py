@@ -27,3 +27,5 @@ def add(a, b) :
 
 
 add(4,5)
+
+number = 9
