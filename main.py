@@ -32,3 +32,5 @@ number = 9
 number = 8
 
 print("Ready to rebase")
+
+print("new changes")
