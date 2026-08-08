@@ -30,3 +30,10 @@ add(4,5)
 
 number = 9 
 number = 8
+
+print("Ready to rebase")
+
+print("new changes")
+
+
+print("lets work on the gihub")
