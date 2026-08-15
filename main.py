@@ -42,3 +42,5 @@ print("user 2")
 
 
 print("the last moves om github")
+
+print("these are the last ones FR")
